@@ -11,10 +11,11 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-MASS R-nnet R-methods R-lattice 
-Requires:         R-VIM R-lattice R-mitools R-nlme R-Zelig R-lme4 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-nnet R-methods R-lattice
-BuildRequires:    R-VIM R-lattice R-mitools R-nlme R-Zelig R-lme4 
+Requires:         R-MASS R-nnet R-methods R-lattice
+Requires:         R-VIM R-lattice R-mitools R-nlme R-Zelig R-lme4
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-MASS R-nnet R-methods R-lattice
+BuildRequires:    R-VIM R-lattice R-mitools R-nlme R-Zelig R-lme4
 
 %description
 Multiple Imputation using Fully Conditional Specification
