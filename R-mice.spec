@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.11
-Release:          1
+Release:          2
 Summary:          Multivariate Imputation by Chained Equations
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
